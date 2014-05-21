@@ -24,6 +24,13 @@
 		ED5E234019254BE300D7C475 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5E233F19254BE300D7C475 /* second@2x.png */; };
 		ED5E234319254BE300D7C475 /* STLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5E234119254BE300D7C475 /* STLFirstViewController.xib */; };
 		ED5E234619254BE300D7C475 /* STLSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5E234419254BE300D7C475 /* STLSecondViewController.xib */; };
+		ED5E234D19254C0700D7C475 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E234C19254C0700D7C475 /* CoreLocation.framework */; };
+		ED5E234F19254C0E00D7C475 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E234E19254C0E00D7C475 /* MapKit.framework */; };
+		ED5E235219254C1300D7C475 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E235019254C1300D7C475 /* AddressBook.framework */; };
+		ED5E235319254C1300D7C475 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E235119254C1300D7C475 /* AddressBookUI.framework */; };
+		ED5E235519254C1B00D7C475 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E235419254C1B00D7C475 /* Twitter.framework */; };
+		ED5E235719254C2100D7C475 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E235619254C2100D7C475 /* Social.framework */; };
+		ED5E235A1925539600D7C475 /* STLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E23591925539600D7C475 /* STLProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,14 @@
 		ED5E233F19254BE300D7C475 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		ED5E234219254BE300D7C475 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STLFirstViewController.xib; sourceTree = "<group>"; };
 		ED5E234519254BE300D7C475 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STLSecondViewController.xib; sourceTree = "<group>"; };
+		ED5E234C19254C0700D7C475 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ED5E234E19254C0E00D7C475 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED5E235019254C1300D7C475 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		ED5E235119254C1300D7C475 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		ED5E235419254C1B00D7C475 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		ED5E235619254C2100D7C475 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		ED5E23581925539600D7C475 /* STLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLProject.h; sourceTree = "<group>"; };
+		ED5E23591925539600D7C475 /* STLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5E235719254C2100D7C475 /* Social.framework in Frameworks */,
+				ED5E235519254C1B00D7C475 /* Twitter.framework in Frameworks */,
+				ED5E235219254C1300D7C475 /* AddressBook.framework in Frameworks */,
+				ED5E235319254C1300D7C475 /* AddressBookUI.framework in Frameworks */,
+				ED5E234F19254C0E00D7C475 /* MapKit.framework in Frameworks */,
+				ED5E234D19254C0700D7C475 /* CoreLocation.framework in Frameworks */,
 				ED5E231C19254BE300D7C475 /* UIKit.framework in Frameworks */,
 				ED5E231E19254BE300D7C475 /* Foundation.framework in Frameworks */,
 				ED5E232019254BE300D7C475 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +107,12 @@
 		ED5E231A19254BE300D7C475 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED5E235619254C2100D7C475 /* Social.framework */,
+				ED5E235419254C1B00D7C475 /* Twitter.framework */,
+				ED5E235019254C1300D7C475 /* AddressBook.framework */,
+				ED5E235119254C1300D7C475 /* AddressBookUI.framework */,
+				ED5E234E19254C0E00D7C475 /* MapKit.framework */,
+				ED5E234C19254C0700D7C475 /* CoreLocation.framework */,
 				ED5E231B19254BE300D7C475 /* UIKit.framework */,
 				ED5E231D19254BE300D7C475 /* Foundation.framework */,
 				ED5E231F19254BE300D7C475 /* CoreGraphics.framework */,
@@ -96,18 +123,20 @@
 		ED5E232119254BE300D7C475 /* SeanLarkinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED5E23581925539600D7C475 /* STLProject.h */,
+				ED5E23591925539600D7C475 /* STLProject.m */,
 				ED5E232A19254BE300D7C475 /* STLAppDelegate.h */,
 				ED5E232B19254BE300D7C475 /* STLAppDelegate.m */,
 				ED5E233319254BE300D7C475 /* STLFirstViewController.h */,
 				ED5E233419254BE300D7C475 /* STLFirstViewController.m */,
+				ED5E234119254BE300D7C475 /* STLFirstViewController.xib */,
 				ED5E233619254BE300D7C475 /* first.png */,
 				ED5E233819254BE300D7C475 /* first@2x.png */,
 				ED5E233A19254BE300D7C475 /* STLSecondViewController.h */,
 				ED5E233B19254BE300D7C475 /* STLSecondViewController.m */,
+				ED5E234419254BE300D7C475 /* STLSecondViewController.xib */,
 				ED5E233D19254BE300D7C475 /* second.png */,
 				ED5E233F19254BE300D7C475 /* second@2x.png */,
-				ED5E234119254BE300D7C475 /* STLFirstViewController.xib */,
-				ED5E234419254BE300D7C475 /* STLSecondViewController.xib */,
 				ED5E232219254BE300D7C475 /* Supporting Files */,
 			);
 			path = SeanLarkinDemo;
@@ -203,6 +232,7 @@
 				ED5E232C19254BE300D7C475 /* STLAppDelegate.m in Sources */,
 				ED5E233519254BE300D7C475 /* STLFirstViewController.m in Sources */,
 				ED5E233C19254BE300D7C475 /* STLSecondViewController.m in Sources */,
+				ED5E235A1925539600D7C475 /* STLProject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +365,7 @@
 				ED5E234B19254BE300D7C475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

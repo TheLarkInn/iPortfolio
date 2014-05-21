@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STLFirstViewController : UIViewController
+@interface STLFirstViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *projectsTableView;
+@property (strong) NSMutableArray *projectsArray;
+@property (weak, nonatomic) IBOutlet UILabel *projectNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *projectDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *primaryLanguageLabel;
 
 @end
